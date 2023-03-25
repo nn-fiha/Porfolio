@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    padding-top: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+   
+  }
+ .nav-info{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+ }
+ header li{
+    padding: 30px 30px;
+    list-style: none;
+    
+  }
+  .logo-container{
+    display: flex;
+    width: 30%;
+    padding: 8%;
+    font-size: large;
+    font-weight: 600;
+  }
+  header a{
+  text-decoration: none;
+    color: black;
+}

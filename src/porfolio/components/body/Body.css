@@ -1,0 +1,102 @@
+.body{
+   
+    margin-top: 250px;
+    display: flex;
+    text-align: left;
+   
+}
+.intro{
+    margin-left: 7%;
+}
+.intro-name{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.intro-title{
+    color: rgb(36, 36, 36);
+    position: relative;
+    padding-left: 5.4rem;
+    margin-bottom: 25px;
+    text-align: left;
+    font-size: large;
+    font-weight:500;
+
+}
+.intro-title::before{
+content: '';
+position: absolute;
+width: 70px;
+height: 1px;
+left: 0;
+top: 1rem;
+background-color: rgb(44, 44, 44);
+}
+.intro-description{
+    text-align: left;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+.button{
+    padding: 15px 25px;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600; 
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button:hover{
+    background-color: rgb(70, 68, 68);
+    
+}
+
+.img-container{
+    display: flex;
+    background-image: url(/public/images/fiha.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-left: 5%;
+    justify-self: center;
+    box-shadow: inset 0 0 0 9px rgba(255 255 255 / 30%);
+    animation: profile_animate 8s ease-in-out infinite 1s;
+}
+@keyframes profile_animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius:30% 60% 70% 40%/50% 60% 30% 60% ;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+.icon-container{
+    display: flex;
+    flex-direction: column;
+   margin-left: 13%;
+   margin-top: 55px;
+   row-gap: 1rem;
+}
+.icon{
+font-size: 1.26rem;
+text-decoration: none;
+color: black;
+}
+.scroll-container{
+    margin-top: 3%;
+    text-align: left;
+    margin-left: 21%;
+}
+.scroll{
+    text-decoration: none;
+    color: black; 
+}
+
+
+
