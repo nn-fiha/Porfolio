@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Porfolio-with-React/static/css/main.1ae1f1d6.css",
-    "main.js": "/Porfolio-with-React/static/js/main.77370e74.js",
-    "static/media/fiha.jpg": "/Porfolio-with-React/static/media/fiha.be2bb00887a9c1d66a05.jpg",
-    "index.html": "/Porfolio-with-React/index.html",
-    "main.1ae1f1d6.css.map": "/Porfolio-with-React/static/css/main.1ae1f1d6.css.map",
-    "main.77370e74.js.map": "/Porfolio-with-React/static/js/main.77370e74.js.map"
+    "main.css": "/nn-fiha.github.io/static/css/main.8b355b2a.css",
+    "main.js": "/nn-fiha.github.io/static/js/main.77370e74.js",
+    "static/media/fiha.jpg": "/nn-fiha.github.io/static/media/fiha.be2bb00887a9c1d66a05.jpg",
+    "index.html": "/nn-fiha.github.io/index.html",
+    "main.8b355b2a.css.map": "/nn-fiha.github.io/static/css/main.8b355b2a.css.map",
+    "main.77370e74.js.map": "/nn-fiha.github.io/static/js/main.77370e74.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ae1f1d6.css",
+    "static/css/main.8b355b2a.css",
     "static/js/main.77370e74.js"
   ]
 }
