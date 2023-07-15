@@ -12,8 +12,8 @@ function Data({name, university, dept}){
 function Social(){
     return(
         <div className='icon-container'>
-            <a href="" className='icon'><i class="uil uil-instagram"></i></a>
-            <a href="" className='icon'><i class="uil uil-dribbble"></i></a>
+            <a href="https://www.instagram.com/nn_fiha/" className='icon'><i class="uil uil-instagram"></i></a>
+            <a href="https://twitter.com/nn_fiha" className='icon'><i class="uil uil-twitter"></i></a>
             <a href="https://www.linkedin.com/in/nnfiha/" className='icon'><i class="uil uil-linkedin-alt"></i></a>
             <a href="https://github.com/nn-fiha" className='icon'><i class="uil uil-github-alt"></i></a>
         </div>
