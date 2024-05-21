@@ -5,10 +5,14 @@ function Data({name, university, dept}){
             <h1 className='intro-name'>{name}</h1>
             {/* <h3 className='intro-title'>Web Developer</h3> */}
             <p className='intro-description'>I am currently studying in {dept} Department at {university} and a tech enthusiast. Quite passionate, a people-person, spirited, disciplined as well as obedient. Being a quick learner, i actively seek out opportunities to learn, adapt, develop my knowledge and skills. I have a genuine interest on Web Development. I've gained hands-on experience in HTML5, CSS3, Bootsrap, Tailwind CSS, JavaScript, NodeJS, ExpressJS and other frameworks and tools that power the modern web. I like to travel and reading books or novels in my leisure.</p>
-            <a href=""><button className='button'> Say Hello <i class="uil uil-telegram-alt"></i></button></a>
+            <a href=""><button className="text-white bg-slate-700 border-none px-5 py-3 font-semibold transition-all rounded"> Say Hello <i class="uil uil-telegram-alt"></i></button></a>
         </div>
     );
 }
+
+   
+    
+
 function Social(){
     return(
         <div className='icon-container'>

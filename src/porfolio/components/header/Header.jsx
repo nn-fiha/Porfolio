@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import './Header.css'
 function Header(){
+    const [toggle,showMenu]= useState(false);
     return(
-<header>
+<header className='header'>
     <section className='logo-container'>
         <p>FIHA</p>
     </section>
@@ -16,6 +18,9 @@ function Header(){
             <li><a href="">Porfolio</a></li>
             <li><a href="">Contact</a></li>
         </ul>
+    </section>
+    <section>
+        <i class='uil uil-times nav_close'></i>
     </section>
 </header>
     );
