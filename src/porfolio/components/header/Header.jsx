@@ -8,7 +8,7 @@ function Header(){
         <p>FIHA</p>
     </section>
     <section>
-        <ul className='nav-info'>
+        <ul className='nav-info font-medium'>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="">Education</a></li>

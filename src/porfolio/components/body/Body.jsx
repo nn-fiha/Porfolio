@@ -2,10 +2,10 @@ import './Body.css';
 function Data({name, university, dept}){
     return(
         <div className='intro'>
-            <h1 className='intro-name'>{name}</h1>
+            <h1 className='intro-name text-3xl font-bold'>{name}</h1>
             {/* <h3 className='intro-title'>Web Developer</h3> */}
-            <p className='intro-description'>I am currently studying in {dept} Department at {university} and a tech enthusiast. Quite passionate, a people-person, spirited, disciplined as well as obedient. Being a quick learner, i actively seek out opportunities to learn, adapt, develop my knowledge and skills. I have a genuine interest on Web Development. I've gained hands-on experience in HTML5, CSS3, Bootsrap, Tailwind CSS, JavaScript, NodeJS, ExpressJS and other frameworks and tools that power the modern web. I like to travel and reading books or novels in my leisure.</p>
-            <a href=""><button className="text-white bg-slate-700 border-none px-5 py-3 font-semibold transition-all rounded"> Say Hello <i class="uil uil-telegram-alt"></i></button></a>
+            <p className='intro-description text-sm text-gray-700'>I am currently studying in {dept} Department at {university} and a tech enthusiast. Quite passionate, a people-person, spirited, disciplined as well as obedient. Being a quick learner, i actively seek out opportunities to learn, adapt, develop my knowledge and skills. I have a genuine interest on Web Development. I've gained hands-on experience in HTML5, CSS3, Bootsrap, Tailwind CSS, JavaScript, NodeJS, ExpressJS and other frameworks and tools that power the modern web. I like to travel and reading books or novels in my leisure.</p>
+            <a href=""><button className="text-white bg-slate-700 border-none px-4 py-2 font-medium transition-all rounded"> Say Hello <i class="uil uil-telegram-alt"></i></button></a>
         </div>
     );
 }
@@ -36,8 +36,8 @@ function Scroll(){
 
 function Body(){
     return(
-        <div>
-            <div className='body'>
+        <div className='mb-20'>
+            <div className='flex text-left mt-64'>
             <Social/>
             <Data name="Nurun Nahar Fiha" university="Jahangirnagar University" dept="Computer Science And Engineering"/>
             <div className='img-container'></div>
@@ -48,3 +48,5 @@ function Body(){
     );
 }
 export default Body;
+
+
