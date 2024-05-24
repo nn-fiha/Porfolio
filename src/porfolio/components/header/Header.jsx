@@ -3,7 +3,7 @@ import './Header.css'
 function Header(){
     const [toggle,showMenu]= useState(false);
     return(
-<header className='header fixed bg-white'>
+<header className='header fixed bg-slate-50'>
     <section className='logo-container'>
         <p>FIHA</p>
     </section>
