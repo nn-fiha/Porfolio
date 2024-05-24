@@ -11,8 +11,8 @@ function Header(){
         <ul className='nav-info font-medium'>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="">Experience</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Porfolio</a></li>
