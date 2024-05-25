@@ -43,13 +43,7 @@ background-color: rgb(44, 44, 44);
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 }
-.icon-container{
-    display: flex;
-    flex-direction: column;
-   margin-left: 13%;
-   margin-top: 55px;
-   row-gap: 1rem;
-}
+
 .icon{
 font-size: 1.26rem;
 text-decoration: none;
