@@ -17,10 +17,8 @@ function Header(){
             <li  className='p-2 list-none'><a href="#about">About</a></li>
             <li  className='p-2 list-none'><a href="#education">Education</a></li>
             <li  className='p-2 list-none'><a href="#skills">Skills</a></li>
-            <li  className='p-2 list-none'><a href="">Experience</a></li>
-            <li  className='p-2 list-none'><a href="">Services</a></li>
-            <li  className='p-2 list-none'><a href="">Porfolio</a></li>
-            <li  className='p-2 list-none'><a href="">Contact</a></li>
+            <li  className='p-2 list-none'><a href="#projects">Projects</a></li>
+            <li  className='p-2 list-none'><a href="#contact">Contact</a></li>
         </ul>
     </section>
     
