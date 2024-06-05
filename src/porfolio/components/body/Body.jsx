@@ -23,20 +23,20 @@ function Social(){
 }
 
 
-function Scroll(){
-    return(
+// function Scroll(){
+//     return(
         
-            <div  className='scroll-container'>
-            <a href="" className='scroll'><i class='bx bx-mouse'></i>Scroll Down <i class="uil uil-arrow-down"></i>
-            </a>
-            </div>
+//             <div  className='scroll-container'>
+//             <a href="" className='scroll'><i class='bx bx-mouse'></i>Scroll Down <i class="uil uil-arrow-down"></i>
+//             </a>
+//             </div>
         
-    );
-}
+//     );
+// }
 
 function Body(){
     return(
-        <div className='mb-20'>
+        <div id='home' className='mb-20'>
             <div className='flex text-left mt-48 gap-8 md:gap-11 p-8'>
             <Social/>
             <div className='flex flex-col-reverse md:p-8 md:flex-row text-left gap-20'>

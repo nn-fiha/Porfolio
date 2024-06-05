@@ -13,7 +13,7 @@ const Contact = () => {
           <i class='bx bx-briefcase-alt text-2xl mb-1'></i>
           <h2 className="text-sm font-medium">Email</h2>
           <h2 className='text-xs text-gray-500 mb-2'>nnfiha@gmail.com</h2>
-          <a href=""><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
+          <a href="#home"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
           </a>
           </div>
 
@@ -21,7 +21,7 @@ const Contact = () => {
           <i class='bx bx-briefcase-alt text-2xl mb-1'></i>
           <h2 className="text-sm font-medium">LinkedIn</h2>
           <h2 className='text-xs text-gray-500 mb-2'>nn_fiha</h2>
-          <a href=""><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
+          <a href="#home"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
           </a>
           </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
           <i class='bx bxl-messenger text-2xl mb-1'></i>
           <h2 className="text-sm font-medium">Messenger</h2>
           <h2 className='text-xs text-gray-500 mb-2'>nnfiha</h2>
-          <a href=""><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
+          <a href="#home"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
           </a>
           </div>
 

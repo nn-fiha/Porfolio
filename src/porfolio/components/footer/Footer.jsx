@@ -35,14 +35,12 @@ const Footer = () => {
           <a
             href="https://www.instagram.com/nn_fiha/"
             className="bg-slate-700 inline-flex rounded-lg text-white text-xl p-1 hover:bg-slate-800"
-            target="_blank"
           >
             <i class="bx bxl-facebook"></i>
           </a>
           <a
             href="https://www.instagram.com/nn_fiha/"
             className="bg-slate-700 inline-flex rounded-lg text-white text-xl p-1 hover:bg-slate-800"
-            target="_blank"
           >
             <i class="bx bxl-instagram"></i>
           </a>
