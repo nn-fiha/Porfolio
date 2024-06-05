@@ -13,8 +13,11 @@ const Contact = () => {
           <i class='bx bx-briefcase-alt text-2xl mb-1'></i>
           <h2 className="text-sm font-medium">Email</h2>
           <h2 className='text-xs text-gray-500 mb-2'>nnfiha@gmail.com</h2>
-          <a href="https://www.linkedin.com/in/nnfiha/"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
-          </a>
+          {/* <a href="https://www.linkedin.com/in/nnfiha/"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span></a> */}
+          <a href="https://www.linkedin.com/in/nnfiha/" className="text-xs text-gray-500">
+  Write me <i className="bx bx-chevron-right text-lg align-middle"></i>
+</a>
+
           </div>
 
           <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5"> 
