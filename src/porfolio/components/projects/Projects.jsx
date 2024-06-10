@@ -38,7 +38,7 @@ const Projects = () => {
         </div>
 
         <div className="w-auto md:w-72 rounded-lg overflow-hidden shadow-lg px-4 py-4 border">
-         <img src={process.env.PUBLIC_URL + '/images/kontaNiben.png'} alt="" className='rounded-lg w-full h-36'/>
+         <img src={process.env.PUBLIC_URL + '/images/routinery.png'} alt="" className='rounded-lg h-36 mx-auto'/>
          <h2 className="text-sm font-medium text-left mt-2">JU CSE Routinery</h2>
          <a href="https://github.com/nn-fiha/JU-CSE-ROUTINARY"><h2 className='text-left text-xs text-gray-500 mt-1 '>Git Link -></h2></a>
         </div>

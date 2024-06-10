@@ -40,7 +40,7 @@ const Contact = () => {
 
         <div>
         <h2 className="p-10 font-medium text-slate-700">Write me your queries!</h2>
-        <form action="" className=" p-4 w-[400px]">
+        <form action="" className="mx-auto p-4 w-[400px]">
           <div className="relative mb-6">
             <label
               htmlFor="name"
