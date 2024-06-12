@@ -2,11 +2,6 @@ import './Header.css'
 import { useState } from "react";
 function Header(){
 
-//     return(
-// <header className='flex items-center justify-around gap-28 h-24 fixed z-50 left-0 right-0 top-0 bg-slate-50 '>  
-    
-// </header>
-
     const [navbar, setNavbar] = useState(false);
 
     return (
@@ -28,7 +23,7 @@ function Header(){
                                 {navbar ? (
                                     <i class="uil uil-times"></i>
                                 ) : (
-                                    <i class="uil uil-align-justify"></i>
+                                    <i class='bx bx-grid-alt' ></i>
                                 )}
                             </button>
                         </div>
@@ -40,7 +35,7 @@ function Header(){
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className={`items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-medium ${navbar ? "flex flex-row" : "flex-col"}`}>
+                        <ul className={`items-center justify-center md:flex md:space-x-6 md:space-y-0 font-medium ${navbar ? "grid grid-cols-3" : "flex flex-row"}`}>
                           
                             <li className='p-2 list-none'><a href="#home">Home</a></li>
                             <li  className='p-2 list-none'><a href="#about">About</a></li>
@@ -57,3 +52,10 @@ function Header(){
     );
 }
 export default Header;
+
+{/* <i class='bx bx-home-alt'></i>
+<i class='bx bx-user'></i>
+<i class='bx bx-file'></i>
+<i class='bx bx-send'></i>
+<i class='bx bxs-graduation'></i>
+<i class='bx bxs-graduation'></i> */}
