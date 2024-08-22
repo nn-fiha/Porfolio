@@ -10,7 +10,7 @@ function About (){
        <span className='text-xs text-gray-500'>My Introduction</span>
        <div className='flex flex-col md:flex-row justify-center items-center gap-20 mt-10'>
         <div className='h-80'>
-        <img src={process.env.PUBLIC_URL + '/images/fiha.jpg'} alt="" className='w-80 h-full rounded-2xl justify-center '/>
+        <img src={process.env.PUBLIC_URL + '/images/fiha about.jpg'} alt="" className='w-68 h-full rounded-2xl justify-center '/>
         </div>
         <div className='w-auto md:w-[450px]'>
             <Info/>

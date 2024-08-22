@@ -33,8 +33,8 @@ const Tools = () => {
           </div>
         
           <div>
-            <img src={process.env.PUBLIC_URL + '/images/jira.png'} alt="" className='w-16 h-16 p-2'/>
-            <h3 className="text-sm font-medium">Jira</h3>
+            <img src={process.env.PUBLIC_URL + '/images/azure.png'} alt="" className='w-16 h-16 p-2'/>
+            <h3 className="text-sm font-medium">Azure Devops</h3>
             <span className="text-[10px] text-gray-500">Basic</span>
           </div>
    

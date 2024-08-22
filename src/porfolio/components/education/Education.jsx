@@ -7,19 +7,19 @@ const Education = () => {
        <span className='text-xs text-gray-500'>Institutions</span>
 
        
-       <div className='flex gap-10 justify-start md:justify-center text-left mb-8 mt-16 md:ml-28'>
+       <div className='flex gap-8 justify-start md:justify-center text-left mb-8 mt-16 md:ml-20'>
         <div>
             <h2 className='font-semibold'>2019-2024</h2>
         </div>
         <div>
             <h2 className='font-semibold'>Bachelor of Science (Eng.) in Computer Science and Engineering</h2>
             <h2>Jahangirnagar University, Savar, Dhaka.</h2>
-            <h2 className='font-medium'>CGPA: 3.67/4.00</h2>
+            <h2 className='font-medium'>CGPA: 3.69/4.00</h2>
             <span className='font-semibold'>Thesis Title: </span><span>Deep Learning Based Bangladeshi Currency Coin Recognition.</span>
         </div>
        </div>
 
-       <div className='flex gap-10 justify-start md:ml-[405px] text-left mb-8'>
+       <div className='flex md:gap-10 justify-start md:ml-[405px] text-left mb-8'>
         <div>
             <h2 className='font-semibold'>2016-2018</h2>
         </div>
@@ -31,7 +31,7 @@ const Education = () => {
         </div>
        </div>
 
-       <div className='flex gap-10 text-left justify-start md:ml-[405px]'>
+       <div className='flex md:gap-10 text-left justify-start md:ml-[405px]'>
         <div>
             <h2 className='font-semibold'>2014-2016</h2>
         </div>
