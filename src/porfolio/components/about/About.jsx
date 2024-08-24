@@ -12,9 +12,9 @@ function About (){
         <div className='h-80'>
         <img src={process.env.PUBLIC_URL + '/images/fiha about.jpg'} alt="" className='w-68 h-full rounded-2xl justify-center '/>
         </div>
-        <div className='w-auto md:w-[450px]'>
+        <div className='w-auto md:w-[490px] px-5'>
             <Info/>
-            <p className='my-5 p-2 text-justify text-gray-700 text-sm'>During my four years long graduation period, I have completed several projects on different languages and frameworks. In this period, I have developed several web applications that utilized Django, MySQL, Nodejs, Expressjs, Reactjs, MongoDB. These gave me hands-on experience in building scalable and efficient applications and also involved database design, server-side logic, and RESTful APIs.
+            <p className='my-5 p-1 text-justify text-gray-700 text-sm'>During my four years long graduation period, I have completed several projects on different languages and frameworks. In this period, I have developed several web applications that utilized Django, MySQL, Nodejs, Expressjs, Reactjs, MongoDB. These gave me hands-on experience in building scalable and efficient applications and also involved database design, server-side logic, and RESTful APIs.
 
 
 </p>
