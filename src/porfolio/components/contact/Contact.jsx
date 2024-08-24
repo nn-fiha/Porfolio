@@ -1,8 +1,25 @@
-import React from "react";
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("mdknprwl");
+
+  const handleFormSubmit = (event) => {
+    handleSubmit(event).then(() => {
+      if (state.succeeded) {
+        toast.success("Thanks for reaching out!"); // Show toast notification
+        setTimeout(() => {
+          window.location.reload(); // Reload the page to reset the form
+        }, 1000); 
+      }
+    });
+  };
+
   return (
     <section id="contact" className="p-8 md:10 md:mb-20">
+      <ToastContainer />
       <h2 className="text-2xl font-bold text-center">Get in Touch</h2>
       <span className="text-xs text-gray-500 text-center">My Contact</span>
 
@@ -10,82 +27,88 @@ const Contact = () => {
         <div>
           <h2 className="p-10 text-slate-700 font-medium">Hate Form? DM me!</h2>
           <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5"> 
-          <i class='bx bx-briefcase-alt text-2xl mb-1'></i>
-          <h2 className="text-sm font-medium">Email</h2>
-          <h2 className='text-xs text-gray-500 mb-2'>nnfiha2000@gmail.com</h2>
-          {/* <a href="https://www.linkedin.com/in/nnfiha/"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span></a> */}
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&nnfiha2000@gmail.com" target="_blank" className="text-xs text-gray-500">
-  Write me <i className="bx bx-chevron-right text-lg align-middle"></i>
-</a>
-
+            <i className='bx bx-briefcase-alt text-2xl mb-1'></i>
+            <h2 className="text-sm font-medium">Email</h2>
+            <h2 className='text-xs text-gray-500 mb-2'>nnfiha2000@gmail.com</h2>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nnfiha2000@gmail.com" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500">
+              Write me <i className="bx bx-chevron-right text-lg align-middle"></i>
+            </a>
           </div>
 
           <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5"> 
-          <i class='bx bx-briefcase-alt text-2xl mb-1'></i>
-          <h2 className="text-sm font-medium">LinkedIn</h2>
-          <h2 className='text-xs text-gray-500 mb-2'>nn_fiha</h2>
-          <a href="https://www.linkedin.com/in/nnfiha/"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
-          </a>
+            <i className='bx bx-briefcase-alt text-2xl mb-1'></i>
+            <h2 className="text-sm font-medium">LinkedIn</h2>
+            <h2 className='text-xs text-gray-500 mb-2'>nn_fiha</h2>
+            <a href="https://www.linkedin.com/in/nnfiha/"><span className='text-xs text-gray-500'>Write me <i className='bx bx-chevron-right text-lg align-middle'></i></span></a>
           </div>
 
           <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border"> 
-          <i class='bx bxl-messenger text-2xl mb-1'></i>
-          <h2 className="text-sm font-medium">Messenger</h2>
-          <h2 className='text-xs text-gray-500 mb-2'>nnfiha</h2>
-          <a href="https://www.facebook.com/nnfiha"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
-          </a>
+            <i className='bx bxl-messenger text-2xl mb-1'></i>
+            <h2 className="text-sm font-medium">Messenger</h2>
+            <h2 className='text-xs text-gray-500 mb-2'>nnfiha</h2>
+            <a href="https://www.facebook.com/nnfiha"><span className='text-xs text-gray-500'>Write me <i className='bx bx-chevron-right text-lg align-middle'></i></span></a>
           </div>
-
         </div>
 
         <div>
-        <h2 className="p-10 font-medium text-slate-700">Write me your queries!</h2>
-        <form action="https://formspree.io/f/mdknprwl" method="POST" className="mx-auto p-4 w-[400px]">
-          <div className="relative mb-6">
-            <label
-              htmlFor="name"
-              className="absolute left-7 -top-3 text-gray-500 z-20 text-xs p-1 bg-white"
-            >
-              Name
-            </label>
-            <input
-              type="text"
-              name="name"
-              placeholder=" "
-              className=" w-full h-12 border-2 bg-none outline-none rounded-lg p-5 z-10"
-            />
-          </div>
-          <div className="relative mb-6">
-            <label
-              htmlFor="email"
-              className="absolute left-7 -top-3 text-gray-500 z-10 text-xs p-1 bg-white"
-            >
-              Email
-            </label>
-            <input
-              type="email"
-              name="email"
-              placeholder=" "
-              className="border-2 w-full h-12 bg-none outline-none rounded-lg p-5 z-10"
-            />
-          </div>
-          <div className="relative mb-6">
-            <label
-              htmlFor="message"
-              className="absolute left-7 -top-3 text-gray-500 z-10 text-xs p-1 bg-white"
-            >
-              Message
-            </label>
-            <textarea
-              name="message"
-        
-              className="border-2 w-full h-40 bg-none outline-none rounded-lg p-5 z-10"
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            className="mt-5 text-white bg-slate-700 border-none px-4 py-2 font-medium transition-all rounded hover:bg-slate-600"> Send Message <i class="uil uil-telegram-alt"></i></button>
-        </form>
+          <h2 className="p-10 font-medium text-slate-700">Write me your queries!</h2>
+          <form onSubmit={handleFormSubmit} className="mx-auto p-4 w-[400px]">
+            <div className="relative mb-6">
+              <label
+                htmlFor="name"
+                className="absolute left-7 -top-3 text-gray-500 z-20 text-xs p-1 bg-white"
+              >
+                Name
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder=" "
+                className="w-full h-12 border-2 bg-none outline-none rounded-lg p-5 z-10"
+              />
+            </div>
+            <div className="relative mb-6">
+              <label
+                htmlFor="email"
+                className="absolute left-7 -top-3 text-gray-500 z-10 text-xs p-1 bg-white"
+              >
+                Email
+              </label>
+              <input
+                type="email"
+                name="email"
+                placeholder=" "
+                className="border-2 w-full h-12 bg-none outline-none rounded-lg p-5 z-10"
+              />
+              <ValidationError 
+                prefix="Email" 
+                field="email"
+                errors={state.errors}
+              />
+            </div>
+            <div className="relative mb-6">
+              <label
+                htmlFor="message"
+                className="absolute left-7 -top-3 text-gray-500 z-10 text-xs p-1 bg-white"
+              >
+                Message
+              </label>
+              <textarea
+                name="message"
+                className="border-2 w-full h-40 bg-none outline-none rounded-lg p-5 z-10"
+              ></textarea>
+              <ValidationError 
+                prefix="Message" 
+                field="message"
+                errors={state.errors}
+              />
+            </div>
+            <button
+              type="submit" 
+              className="mt-5 text-white bg-slate-700 border-none px-4 py-2 font-medium transition-all rounded hover:bg-slate-600"> 
+              Send Message <i className="uil uil-telegram-alt"></i>
+            </button>
+          </form>
         </div>
       </div>
     </section>
