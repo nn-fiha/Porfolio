@@ -2,7 +2,7 @@
 
 function Info() {
   return (
-    <section className="flex flex-row items-center gap-3 md:gap-5">
+    <section className="flex flex-row px-3 items-center gap-3 md:gap-5">
         <div className="max w-[120px] md:w-[140px] rounded-lg overflow-hidden shadow-lg md:px-6 py-3 border">
          <i class='bx bx-award text-2xl mb-1' ></i>
          <h2 className="text-sm font-medium">Experience</h2>

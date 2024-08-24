@@ -8,13 +8,13 @@ function About (){
     <section id='about' className='p-8 mb-20'>
        <h2 className='text-2xl font-bold'>About Me</h2> 
        <span className='text-xs text-gray-500'>My Introduction</span>
-       <div className='flex flex-col md:flex-row justify-center items-center gap-20 mt-10'>
+       <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 mt-10'>
         <div className='h-80'>
         <img src={process.env.PUBLIC_URL + '/images/fiha about.jpg'} alt="" className='w-68 h-full rounded-2xl justify-center '/>
         </div>
-        <div className='w-auto md:w-[490px] px-5'>
+        <div className='w-auto md:w-[490px] ml-10 md:ml-0 px-3 md:px-0'>
             <Info/>
-            <p className='my-5 p-1 text-justify text-gray-700 text-sm'>During my four years long graduation period, I have completed several projects on different languages and frameworks. In this period, I have developed several web applications that utilized Django, MySQL, Nodejs, Expressjs, Reactjs, MongoDB. These gave me hands-on experience in building scalable and efficient applications and also involved database design, server-side logic, and RESTful APIs.
+            <p className='my-5 p-6 md:p-2 text-justify text-gray-700 text-sm'>During my four years long graduation period, I have completed several projects on different languages and frameworks. In this period, I have developed several web applications that utilized Django, MySQL, Nodejs, Expressjs, Reactjs, MongoDB. These gave me hands-on experience in building scalable and efficient applications and also involved database design, server-side logic, and RESTful APIs.
 
 
 </p>
