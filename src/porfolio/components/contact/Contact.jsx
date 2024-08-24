@@ -109,14 +109,15 @@ const Contact = () => {
               className={`relative mt-5 text-white bg-slate-700 border-none px-6 py-3 font-medium transition-transform duration-300 ease-in-out rounded-lg hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2 ${state.submitting ? 'opacity-50 cursor-wait' : ''}`}
             >
               <span className="flex items-center justify-center">
+              
+                <span className="mr-2">Send Message</span>
                 {state.submitting ? (
-                  <svg className="w-5 h-5 mr-3 animate-spin text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <svg className="w-5 h-5 ml-3 animate-spin text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <path d="M12 22a10 10 0 0 0 0-20v2a8 8 0 0 1 0 16v2z"></path>
                   </svg>
                 ) : (
                   <i className="uil uil-telegram-alt text-lg"></i>
                 )}
-                <span className="ml-2">Send Message</span>
               </span>
             </button>
           </form>
