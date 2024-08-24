@@ -17,16 +17,16 @@ const Contact = () => {
   }, [state.succeeded]);
   
   return (
-    <section id="contact" className="p-8 md:10 md:mb-20">
+    <section id="contact" className="p-8 md:10 md:mb-20 ml-10 md:ml-0">
       <ToastContainer />
       <h2 className="text-2xl font-bold text-center">Get in Touch</h2>
       <span className="text-xs text-gray-500 text-center">My Contact</span>
 
       <div className="flex flex-col md:flex-row gap-10 justify-center">
         <div>
-          <h2 className="p-10 text-slate-700 font-medium ml-10 md:ml-0">Hate Form? DM me!</h2>
+          <h2 className="p-10 text-slate-700 font-medium">Hate Form? DM me!</h2>
 
-          <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5 ml-10 md:ml-0"> 
+          <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5"> 
             <i className='bx bx-briefcase-alt text-2xl mb-1'></i>
             <h2 className="text-sm font-medium">Email</h2>
             <h2 className='text-xs text-gray-500 mb-2'>nnfiha2000@gmail.com</h2>
@@ -35,14 +35,14 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5 ml-10 md:ml-0"> 
+          <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5"> 
             <i className='bx bx-briefcase-alt text-2xl mb-1'></i>
             <h2 className="text-sm font-medium">LinkedIn</h2>
             <h2 className='text-xs text-gray-500 mb-2'>nn_fiha</h2>
             <a href="https://www.linkedin.com/in/nnfiha/"><span className='text-xs text-gray-500'>Write me <i className='bx bx-chevron-right text-lg align-middle'></i></span></a>
           </div>
 
-          <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border ml-10 md:ml-0"> 
+          <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border "> 
             <i className='bx bxl-messenger text-2xl mb-1'></i>
             <h2 className="text-sm font-medium">Messenger</h2>
             <h2 className='text-xs text-gray-500 mb-2'>nnfiha</h2>
@@ -51,8 +51,8 @@ const Contact = () => {
         </div>
 
         <div>
-          <h2 className="p-10 font-medium text-slate-700 ml-10 md:ml-0">Write me your queries!</h2>
-          <form onSubmit={handleSubmit} className="ml-4 md:ml-0 md:p-4 md:w-[400px]">
+          <h2 className="p-10 font-medium text-slate-700">Write me your queries!</h2>
+          <form onSubmit={handleSubmit} className="md:p-4 md:w-[400px]">
             <div className="relative mb-6">
               <label
                 htmlFor="name"

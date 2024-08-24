@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <section id='projects' className='p-8 mb-10 md:mb-20'>
+    <section id='projects' className='p-8 mb-10 md:mb-20 ml-10 md:ml-0'>
  
     <h2 className='text-2xl font-bold text-center'>Projects</h2> 
     <span className='text-xs text-gray-500 text-center'>My existing projects</span>
