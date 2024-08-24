@@ -24,7 +24,7 @@ const Contact = () => {
 
       <div className="flex flex-col md:flex-row gap-10 justify-center">
         <div>
-          <h2 className="p-10 text-slate-700 font-medium">Hate Form? DM me!</h2>
+          <h2 className="p-10 text-slate-700 font-medium ml-10 md:ml-0">Hate Form? DM me!</h2>
 
           <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5 ml-10 md:ml-0"> 
             <i className='bx bx-briefcase-alt text-2xl mb-1'></i>
