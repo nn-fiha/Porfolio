@@ -52,7 +52,7 @@ const Contact = () => {
 
         <div>
           <h2 className="p-10 font-medium text-slate-700 ml-10 md:ml-0">Write me your queries!</h2>
-          <form onSubmit={handleSubmit} className="mx-auto ml-10 md:ml-0 md:p-4 md:w-[400px]">
+          <form onSubmit={handleSubmit} className="ml-4 md:ml-0 md:p-4 md:w-[400px]">
             <div className="relative mb-6">
               <label
                 htmlFor="name"
