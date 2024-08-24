@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="p-8 mb-20">
-      <h2 className="text-2xl font-bold">Get in Touch</h2>
-      <span className="text-xs text-gray-500">My Contact</span>
+    <section id="contact" className="p-8 md:10 md:mb-20">
+      <h2 className="text-2xl font-bold text-center">Get in Touch</h2>
+      <span className="text-xs text-gray-500 text-center">My Contact</span>
 
       <div className="flex flex-col md:flex-row gap-10 justify-center">
         <div>
@@ -12,9 +12,9 @@ const Contact = () => {
           <div className="max w-auto rounded-lg overflow-hidden shadow-lg px-6 py-3 border mb-5"> 
           <i class='bx bx-briefcase-alt text-2xl mb-1'></i>
           <h2 className="text-sm font-medium">Email</h2>
-          <h2 className='text-xs text-gray-500 mb-2'>nnfiha@gmail.com</h2>
+          <h2 className='text-xs text-gray-500 mb-2'>nnfiha2000@gmail.com</h2>
           {/* <a href="https://www.linkedin.com/in/nnfiha/"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span></a> */}
-          <a href="https://www.linkedin.com/in/nnfiha/" className="text-xs text-gray-500">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&nnfiha2000@gmail.com" target="_blank" className="text-xs text-gray-500">
   Write me <i className="bx bx-chevron-right text-lg align-middle"></i>
 </a>
 
@@ -32,7 +32,7 @@ const Contact = () => {
           <i class='bx bxl-messenger text-2xl mb-1'></i>
           <h2 className="text-sm font-medium">Messenger</h2>
           <h2 className='text-xs text-gray-500 mb-2'>nnfiha</h2>
-          <a href="https://www.linkedin.com/in/nnfiha/"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
+          <a href="https://www.facebook.com/nnfiha"><span className='text-xs text-gray-500'>Write me <i class='bx bx-chevron-right text-lg align-middle'></i></span>
           </a>
           </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
 
         <div>
         <h2 className="p-10 font-medium text-slate-700">Write me your queries!</h2>
-        <form action="" className="mx-auto p-4 w-[400px]">
+        <form action="https://formspree.io/f/mdknprwl" method="POST" className="mx-auto p-4 w-[400px]">
           <div className="relative mb-6">
             <label
               htmlFor="name"
@@ -78,7 +78,7 @@ const Contact = () => {
             </label>
             <textarea
               name="message"
-              placeholder=" "
+        
               className="border-2 w-full h-40 bg-none outline-none rounded-lg p-5 z-10"
             ></textarea>
           </div>

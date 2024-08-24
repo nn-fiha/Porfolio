@@ -2,9 +2,9 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <section id='education' className='p-8 mb-20'>
-       <h2 className='text-2xl font-bold'>Educational Background</h2> 
-       <span className='text-xs text-gray-500'>Institutions</span>
+    <section id='education' className='p-8 mb-10 md:mb-20'>
+       <h2 className='text-2xl font-bold text-center'>Educational Background</h2> 
+       <span className='text-xs text-gray-500 text-center'>Institutions</span>
 
        
        <div className='flex gap-8 justify-start md:justify-center text-left mb-8 mt-16 md:ml-20'>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-50 p-10">
+    <footer className="bg-slate-50 p-10 w-full">
       <div>
       
         <div class=" w-28 p-2 inline-flex  justify-center">
@@ -16,7 +16,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#portfolio"
+              href="#projects"
               className="text-slate-700 hover:text-slate-900"
             >
               Projects
@@ -33,7 +33,7 @@ const Footer = () => {
         </ul>
         <div className="flex gap-5 justify-center m-2 mb-12">
           <a
-            href="https://www.instagram.com/nn_fiha/"
+            href="https://www.facebook.com/nnfiha"
             className="bg-slate-700 inline-flex rounded-lg text-white text-xl p-1 hover:bg-slate-800"
           >
             <i class="bx bxl-facebook"></i>

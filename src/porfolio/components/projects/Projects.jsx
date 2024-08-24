@@ -2,10 +2,10 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <section id='projects' className='p-8 mb-20'>
+    <section id='projects' className='p-8 mb-10 md:mb-20'>
  
-    <h2 className='text-2xl font-bold'>Projects</h2> 
-    <span className='text-xs text-gray-500'>My existing projects</span>
+    <h2 className='text-2xl font-bold text-center'>Projects</h2> 
+    <span className='text-xs text-gray-500 text-center'>My existing projects</span>
     <div className="grid grid-cols-2 md:flex md:flex-wrap md:justify-center gap-10 md:gap-20 mt-10 md:px-20">
         <div className="w-auto md:w-72  rounded-lg shadow-lg px-4 py-4 border">
          <img src={process.env.PUBLIC_URL + '/images/OBE.png'} alt="" className='rounded-lg w-full h-36'/>

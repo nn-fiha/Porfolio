@@ -5,9 +5,9 @@ import CV from './Resume.pdf'
 
 function About (){
   return (
-    <section id='about' className='p-8 mb-20'>
-       <h2 className='text-2xl font-bold'>About Me</h2> 
-       <span className='text-xs text-gray-500'>My Introduction</span>
+    <section id='about' className='p-8 mb-10 md:mb-20'>
+       <h2 className='text-2xl font-bold text-center'>About Me</h2> 
+       <span className='text-xs text-gray-500 text-center'>My Introduction</span>
        <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 mt-10'>
         <div className='h-80'>
         <img src={process.env.PUBLIC_URL + '/images/fiha about.jpg'} alt="" className='w-68 h-full rounded-2xl justify-center '/>
