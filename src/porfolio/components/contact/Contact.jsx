@@ -1,22 +1,21 @@
-import React from 'react';
+
+import React, { useEffect } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("mdknprwl");
-
-  const handleFormSubmit = (event) => {
-    handleSubmit(event).then(() => {
-      if (state.succeeded) {
-        toast.success("Thanks for reaching out!"); // Show toast notification
-        setTimeout(() => {
-          window.location.reload(); // Reload the page to reset the form
-        }, 1000); 
-      }
-    });
-  };
-
+  const [state, handleSubmit ] = useForm("mdknprwl");
+  useEffect(() => {
+    if (state.succeeded) {
+      toast.success("Thanks for reaching out!");
+      const timer = setTimeout(() => {
+        window.location.reload();
+      }, 1000);
+      return () => clearTimeout(timer); // Cleanup timeout on unmount
+    }
+  }, [state.succeeded]);
+  
   return (
     <section id="contact" className="p-8 md:10 md:mb-20">
       <ToastContainer />
@@ -52,7 +51,7 @@ const Contact = () => {
 
         <div>
           <h2 className="p-10 font-medium text-slate-700">Write me your queries!</h2>
-          <form onSubmit={handleFormSubmit} className="mx-auto p-4 w-[400px]">
+          <form onSubmit={handleSubmit} className="mx-auto p-4 w-[400px]">
             <div className="relative mb-6">
               <label
                 htmlFor="name"
@@ -104,9 +103,20 @@ const Contact = () => {
               />
             </div>
             <button
-              type="submit" 
-              className="mt-5 text-white bg-slate-700 border-none px-4 py-2 font-medium transition-all rounded hover:bg-slate-600"> 
-              Send Message <i className="uil uil-telegram-alt"></i>
+              type="submit"
+              disabled={state.submitting}
+              className={`relative mt-5 text-white bg-slate-700 border-none px-6 py-3 font-medium transition-transform duration-300 ease-in-out rounded-lg hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2 ${state.submitting ? 'opacity-50 cursor-wait' : ''}`}
+            >
+              <span className="flex items-center justify-center">
+                {state.submitting ? (
+                  <svg className="w-5 h-5 mr-3 animate-spin text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M12 22a10 10 0 0 0 0-20v2a8 8 0 0 1 0 16v2z"></path>
+                  </svg>
+                ) : (
+                  <i className="uil uil-telegram-alt text-lg"></i>
+                )}
+                <span className="ml-2">Send Message</span>
+              </span>
             </button>
           </form>
         </div>

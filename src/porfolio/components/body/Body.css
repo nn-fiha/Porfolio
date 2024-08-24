@@ -1,25 +1,3 @@
-
-/* .intro-title{
-    color: rgb(36, 36, 36);
-    position: relative;
-    padding-left: 5.4rem;
-    margin-bottom: 25px;
-    text-align: left;
-    font-size: large;
-    font-weight:500;
-
-}
-.intro-title::before{
-content: '';
-position: absolute;
-width: 70px;
-height: 1px;
-left: 0;
-top: 1rem;
-background-color: rgb(44, 44, 44);
-} */
-
-
 .img-container{
     display: flex;
     background-image: url(/public/images/fiha.jpg);
@@ -49,15 +27,7 @@ font-size: 1.26rem;
 text-decoration: none;
 color: black;
 }
-.scroll-container{
-    margin-top: 3%;
-    text-align: left;
-    margin-left: 21%;
-}
-.scroll{
-    text-decoration: none;
-    color: black; 
-}
+
 
 
 
