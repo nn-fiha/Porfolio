@@ -25,7 +25,7 @@ function Social(){
 function Body(){
     return(
         <div id='home' className='mb-10 md:mb-20'>
-            <div className='flex text-left mt-48 gap-8 md:gap-11 p-8'>
+            <div className='flex text-left mt-32 md:mt-48 gap-8 md:gap-11 p-8'>
             <Social/>
             <div className='flex flex-col-reverse md:p-8 md:flex-row text-left gap-20'>
             <Data name="Nurun Nahar Fiha" university="Jahangirnagar University" dept="Computer Science And Engineering"/>
