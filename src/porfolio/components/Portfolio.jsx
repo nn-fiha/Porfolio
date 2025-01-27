@@ -1,4 +1,4 @@
-import About from "./about/About";
+import About from "./experience/Experience";
 import Body from "./body/Body";
 import Contact from "./contact/Contact";
 import Education from "./education/Education";
@@ -12,8 +12,8 @@ function Portfolio() {
       <div>
        <Header/>
        <Body/>
-       <About/>
        <Education/>
+       <About/>
        <Skills />
        <Projects/>
        <Contact />

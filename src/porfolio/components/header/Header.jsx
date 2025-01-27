@@ -33,7 +33,7 @@ function Header() {
           >
             <ul
               className={`items-center justify-center md:flex md:space-x-6 md:space-y-0 font-medium ${
-                navbar ? "grid grid-cols-3" : "flex flex-row"
+                navbar ? "grid grid-cols-3 gap-x-14" : "flex flex-row"
               }`}
             >
               <li className=" p-2 list-none md:hidden">
@@ -41,14 +41,16 @@ function Header() {
                   <i className="bx bx-home-alt font-semibold text-xl"></i>
                 </a>
               </li>
-              <li className="p-2 list-none md:hidden">
-                <a href="#about">
-                  <i className="bx bx-user font-semibold text-xl"></i>
-                </a>
-              </li>
+             
               <li className="p-2 list-none md:hidden">
                 <a href="#education">
                 <i className="bx bxs-graduation font-semibold text-xl"> </i>
+                </a>
+              </li>
+              <li className="p-2 list-none md:hidden">
+                <a href="#experience">
+                  <i className="bx bxs-briefcase font-semibold text-xl"></i>
+                  
                 </a>
               </li>
               <li className="p-2 list-none md:hidden">
@@ -60,7 +62,8 @@ function Header() {
               <li className="p-2 list-none md:hidden">
                 <a href="#projects">
                  
-                  <i class='bx bx-book-reader font-semibold text-xl'></i>
+                  <i class='bx bx-code-alt font-semibold text-xl'></i>
+                
                 </a>
               </li>
               <li className="p-2 list-none md:hidden">
@@ -72,11 +75,12 @@ function Header() {
               <li className="p-2 list-none hidden md:block">
                 <a href="#home">Home</a>
               </li>
-              <li className="p-2 list-none hidden md:block">
-                <a href="#about">About</a>
-              </li>
+
               <li className="p-2 list-none hidden md:block">
                 <a href="#education">Education</a>
+              </li>
+              <li className="p-2 list-none hidden md:block">
+                <a href="#experience">Experience</a>
               </li>
               <li className="p-2 list-none hidden md:block">
                 <a href="#skills">Skills</a>
