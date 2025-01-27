@@ -1,4 +1,5 @@
 import './Body.css';
+import CV from './Resume.pdf'
 function Data({name}){
     return(
         <div className='-ml-16 md:ml-[4%]'>
@@ -11,7 +12,9 @@ function Data({name}){
             <br/><br/>
             I am passionate about continuous learning and constantly seek opportunities to grow both technically and professionally. Outside of work, I love traveling and getting lost in a good book to recharge, always looking for new ways to expand my horizons.
             </p>
-            <a href="#contact"><button className="text-white bg-slate-700 border-none px-4 py-2 font-medium transition-all rounded hover:bg-slate-600"> Say Hello <i class="uil uil-telegram-alt"></i></button></a>
+            {/* <a href="#contact"><button className="text-white bg-slate-700 border-none px-4 py-2 font-medium transition-all rounded hover:bg-slate-600"> Say Hello <i class="uil uil-telegram-alt"></i></button></a> */}
+            <a download="" href={CV}><button className='text-white bg-slate-700 border-none px-4 py-2 font-medium transition-all rounded-md hover:bg-slate-600'> Download Resume <i class="uil uil-file-download-alt text-xl"></i></button></a>
+
         </div>
     );
 }

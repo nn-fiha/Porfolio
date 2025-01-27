@@ -1,6 +1,6 @@
 
 import Info from './Info'
-import CV from './Resume.pdf'
+
 
 
 function Experience (){
