@@ -58,7 +58,7 @@ function Experience (){
 </ul>
     </div>
         <div className=''>
-        <img src={process.env.PUBLIC_URL + '/images/Dsi.jpg'} alt="" className='h-20 p-0'/>
+        <img src= "https://www.openrefactory.com/wp-content/uploads/2020/01/DSI-Logo-1.png" alt="" className='h-20 p-0'/>
         <p className="mt-6 text-gray-700 text-sm  text-justify">Dynamic Solution Innovators (DSi) is a provider of information technology solutions. It offers machine learning, big data environment, data science, Off Dock Management, software development, digital verification, enterprise resource solutions, and more.
         <br/><strong>Project Name:</strong> KeyPleaz, a USA-based app connecting Real Estate Agents Instantly.
           </p>
