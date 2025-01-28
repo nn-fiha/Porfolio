@@ -11,6 +11,7 @@ const Education = () => {
         <div>
             <h2 className='font-semibold'>2019-2024</h2>
         </div>
+        <div> - </div>
         <div>
             <h2 className='font-semibold'>Bachelor of Science (Eng.) in Computer Science and Engineering</h2>
             <h2>Jahangirnagar University, Savar, Dhaka.</h2>
@@ -19,10 +20,11 @@ const Education = () => {
         </div>
        </div>
 
-       <div className='flex gap-8 md:gap-10 justify-start md:ml-[405px] text-left mb-8 ml-10'>
+       <div className='flex gap-8 md:gap-10 justify-start md:ml-[380px] text-left mb-8 ml-10'>
         <div>
             <h2 className='font-semibold'>2016-2018</h2>
         </div>
+        <div> - </div>
         <div>
             <h2 className='font-semibold'>HSC in Science</h2>
             <h2>Dr. Mahbubur Rahman Mollah College, Dhaka.</h2>
@@ -31,10 +33,11 @@ const Education = () => {
         </div>
        </div>
 
-       <div className='flex gap-8 md:gap-10 text-left justify-start md:ml-[405px] ml-10'>
+       <div className='flex gap-8 md:gap-10 text-left justify-start md:ml-[380px] ml-10'>
         <div>
             <h2 className='font-semibold'>2014-2016</h2>
         </div>
+        <div> - </div>
         <div>
             <h2 className='font-semibold'>SSC in Science</h2>
             <h2>Sheikhdi A. M. High School, Jatrabari, Dhaka.</h2>
@@ -42,6 +45,7 @@ const Education = () => {
             
         </div>
         </div>
+        
     
     </section>
 

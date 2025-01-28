@@ -2,10 +2,10 @@ import './Body.css';
 import CV from './Resume.pdf'
 function Data({name}){
     return(
-        <div className='-ml-16 md:ml-[4%]'>
+        <div className='-ml-24 md:ml-[4%]'>
             <h1 className='text-left mb-6 text-3xl font-bold'>{name}</h1>
             {/* <h3 className='intro-title'>Web Developer</h3> */}
-            <p className='text-justify mb-8 max-w-[600px] text-sm text-gray-700'>
+            <p className='text-justify mb-8 max-w-[375px] md:max-w-[600px] text-sm text-gray-700'>
             I am a Software Quality Assurance Engineer who loves ensuring that software works perfectly and provides a great experience for users. Being detail-oriented and a good communicator, I enjoy solving problems while working with others.
             <br/> <br/>
             I have a strong interest in business analysis, working with databases, and improving processes to make systems more efficient. I have experience working with technologies like HTML5, CSS3, JavaScript, NodeJS, ExpressJS, Django, ReactJS, and MongoDB. I enjoy working on small pet projects, where I can explore building applications, designing databases, and creating useful APIs.
@@ -22,7 +22,7 @@ function Data({name}){
 
 function Social(){
     return(
-        <div className='flex flex-col gap-8 mt-10 md:mt-[120px] ml-[13%]'>
+        <div className='flex flex-col gap-8 mt-10 md:mt-[120px] ml-[8%] md:ml-[13%]'>
             <a href="https://www.instagram.com/nn_fiha/" className='icon'><i class="uil uil-instagram"></i></a>
             <a href="https://twitter.com/nn_fiha" className='icon'><i class="uil uil-twitter"></i></a>
             <a href="https://www.linkedin.com/in/nnfiha/" className='icon'><i class="uil uil-linkedin-alt"></i></a>

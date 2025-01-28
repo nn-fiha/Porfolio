@@ -42,17 +42,25 @@ function Header() {
                 </a>
               </li>
              
-              <li className="p-2 list-none md:hidden">
-                <a href="#education">
-                <i className="bx bxs-graduation font-semibold text-xl"> </i>
-                </a>
-              </li>
+              
               <li className="p-2 list-none md:hidden">
                 <a href="#experience">
                   <i className="bx bxs-briefcase font-semibold text-xl"></i>
                   
                 </a>
               </li>
+              <li className="p-2 list-none md:hidden">
+                <a href="#education">
+                <i className="bx bxs-graduation font-semibold text-xl"> </i>
+                </a>
+              </li>
+
+              <li className="p-2 list-none md:hidden">
+                <a href="#publications">
+                <i className="bx bxs-book-content font-semibold text-xl"> </i>
+                </a>
+              </li>
+
               <li className="p-2 list-none md:hidden">
                 <a href="#skills">
                
@@ -77,11 +85,17 @@ function Header() {
               </li>
 
               <li className="p-2 list-none hidden md:block">
-                <a href="#education">Education</a>
-              </li>
-              <li className="p-2 list-none hidden md:block">
                 <a href="#experience">Experience</a>
               </li>
+
+              <li className="p-2 list-none hidden md:block">
+                <a href="#education">Education</a>
+              </li>
+
+              <li className="p-2 list-none hidden md:block">
+                <a href="#publications">Publications</a>
+              </li>
+
               <li className="p-2 list-none hidden md:block">
                 <a href="#skills">Skills</a>
               </li>
