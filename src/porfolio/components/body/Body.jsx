@@ -1,3 +1,5 @@
+
+import React from 'react';
 import './Body.css';
 import CV from './Resume.pdf'
 function Data({name}){

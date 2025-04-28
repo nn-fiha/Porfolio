@@ -1,4 +1,5 @@
 
+import React from 'react';
 import Body from "./body/Body";
 import Contact from "./contact/Contact";
 import Education from "./education/Education";

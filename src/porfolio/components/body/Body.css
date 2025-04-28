@@ -1,11 +1,11 @@
 .img-container{
     display: flex;
-    background-image: url(/public/images/fiha.jpg);
+    background-image: url(/public/images/Fiha\ pic.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 300px;
-    width: 300px;
+    height: 320px;
+    width: 320px;
     justify-self: center;
     box-shadow: inset 0 0 0 9px rgba(255 255 255 / 30%);
     animation: profile_animate 8s ease-in-out infinite 1s;

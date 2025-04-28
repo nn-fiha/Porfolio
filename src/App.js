@@ -1,3 +1,4 @@
+import React from 'react';
 import Portfolio from './porfolio/components/Portfolio';
 import './App.css';
 function App() {
